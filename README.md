@@ -13,10 +13,10 @@
 
 - Number and name of feature: **#2 ADD FUNCTIONALITY**
 
-- Estimate of time needed to complete: 
+- Estimate of time needed to complete: 2 hrs
 
-- Start time: 
+- Start time: 8/15/20 at 9:30am
 
-- Finish time: 
+- Finish time: 11:31am
 
-- Actual time needed to complete: 
+- Actual time needed to complete: 2hrs
