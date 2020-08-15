@@ -507,7 +507,7 @@ button,
 }
 
 @media screen and (max-width: 960px) {
-
+/* had to change the breakpoint for the sidebar to 960 so that this sidebar will NOT Show up in tablet mode */
   /* Basic */
 
     html, body {

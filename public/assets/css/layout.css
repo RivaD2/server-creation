@@ -7,6 +7,7 @@
   width: 1400px;
 }
 
+
   @media screen and (min-width: 961px) and (max-width: 1880px) {
 
     .container {
@@ -1514,3 +1515,31 @@
           }
 
   }
+
+/* by default, my responsive menu won't show up but then it will when the breakpoint of tablet is hit. */
+#responsive-header {
+  display:none;
+}
+/* This is media query for tablet mode-when the user hits the breakpoint, 
+the hamburger menu will display a fixed nav menu instead */
+@media only screen and (min-width : 768px) and (max-width: 960px){
+ #responsive-header {
+  display: block;
+  background-color: rgb(241, 187, 196);
+  color: black;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+ }
+ #responsive-header #title {
+   font-size: 40px;
+ }
+ #responsive-header #logo p {
+   font-size: 40px;
+ }
+ .avatar48 {
+   display:none !important;
+
+ }
+ .toggle {
+   display:none;
+ }
+}
